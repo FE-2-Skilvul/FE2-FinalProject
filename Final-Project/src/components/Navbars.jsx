@@ -42,9 +42,10 @@ const Navbars = () => {
             </Nav>
 
             <div className='text-center'>
-              <button className='btn btn-outline-light rounded-10 text-white'>Daftar</button>
+              <button className='btn rounded-10' style={{ backgroundColor: '#ededed', color: '#144458' }}>Daftar</button>
             </div>
-
+            {/* className="btn btn-lg rounded-1 me-2"
+            style={{ backgroundColor: '#144458', color: '#ffff' }} */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
