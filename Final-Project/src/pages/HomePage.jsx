@@ -20,7 +20,16 @@ const HomePage = () => {
         </Row>
       </Container>
     </header>
-    <div className="artikel w-100 min-vh-100"></div>
+    <div className="artikel w-100 min-vh-100">
+      <Container>
+        <Row>
+          <Col>
+            <h1 className="text-center fw-bold">Artikel Terbaru</h1>
+            <p className="text-center" style={{color: '#231942'}}>Kumpulan Artikel Lingkungan Yang Bisa Anda Baca</p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   </div>
   );
 };
