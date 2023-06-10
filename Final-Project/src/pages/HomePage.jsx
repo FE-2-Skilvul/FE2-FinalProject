@@ -1,5 +1,7 @@
 import {Container, Row, Col} from "react-bootstrap"
 import HeroImage from '../assets/img/hero2.png'
+import {artikelTerbaru} from "../data/index"
+
 
 
 const HomePage = () => {
@@ -27,6 +29,22 @@ const HomePage = () => {
             <h1 className="text-center fw-bold">Artikel Terbaru</h1>
             <p className="text-center" style={{color: '#231942'}}>Kumpulan Artikel Lingkungan Yang Bisa Anda Baca</p>
           </Col>
+        </Row>
+        <Row>
+          {artikelTerbaru.map((artikel) => {
+            return (
+            <Col key={artikel.id}>
+              <img src={artikel.image} alt="" className="w-100 mb-3 rounded" />
+              <h5 className="mb-2 px-3">{artikel.title}</h5>
+              <p className="text-muted small mb-4 px-3">{artikel.date}</p>
+              <div className=" px-3 pb-3">
+                <button className="btn rounded-10 me-2 mb-xs-0 mb-2"
+                style={{ backgroundColor: '#144458', color: '#ffff' }}>{artikel.readmore}</button>
+              </div>
+            </Col>
+            );
+          })}
+          
         </Row>
       </Container>
     </div>
