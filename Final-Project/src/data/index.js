@@ -40,7 +40,7 @@ export const semuaArtikel = [
   {
     id: 1,
     image: Artikel1,
-    title: "Character Illustration with Adobe Illustrator",
+    title: "Giat Mengurangi Penggunaan Sampah Sehari-hari",
     date: "Kamis, 1 Juni 2023",
     readmore: "Baca Detail",
     delay: "1300",
@@ -48,7 +48,7 @@ export const semuaArtikel = [
   {
     id: 2,
     image: Artikel2,
-    title: "UI UX Website Design for Beginner with Figma",
+    title: "Giat Melakukan Reboisasi Pada Lingkungan Sekitar",
     date: "Minggu, 11 Juni 2023",
     readmore: "Baca Detail",
     delay: "1600",
@@ -56,7 +56,7 @@ export const semuaArtikel = [
   {
     id: 3,
     image: Artikel3,
-    title: "Mastering Web Developer Bootstrap 5",
+    title: "Kreatif!! Olah Sampah Plastik Jadi Bata",
     date: "Rabu, 21 juni 2023",
     readmore: "Baca Detail",
     delay: "1900",
@@ -64,7 +64,7 @@ export const semuaArtikel = [
   {
     id: 4,
     image: Artikel4,
-    title: "Mastering Logo with Adobe Illustrator",
+    title: "Ketahui Sampah Sesuai Jenis-Jenisnya",
     date: "Rabu, 28 Juni 2023",
     readmore: "Baca Detail",
     delay: "",
@@ -72,7 +72,7 @@ export const semuaArtikel = [
   {
     id: 5,
     image: Artikel5,
-    title: "3D Modelling for Beginner with 3D Blender",
+    title: "Menyulap Limbah Plastik Menjadi BBM",
     date: "Senin, 1 Mei 2023",
     readmore: "Baca Detail",
     delay: "300",
@@ -80,7 +80,7 @@ export const semuaArtikel = [
   {
     id: 6,
     image: Artikel6,
-    title: "Mastering Icon Design with Adobe Illustrator",
+    title: "Pemanfaatan Limbah Plastik Menjadi Paving",
     date: "Kamis, 11 Mei 2023",
     readmore: "Baca Detail",
     delay: "600",
@@ -88,7 +88,7 @@ export const semuaArtikel = [
   {
     id: 7,
     image: Artikel7,
-    title: "Design Vektor with Corel Draw CC for Beginner",
+    title: "Pemanfaatan Limbah Plastik Menjadi Paving",
     date: "Minggu, 21 Mei 2023",
     readmore: "Baca Detail",
     delay: "",
@@ -96,7 +96,7 @@ export const semuaArtikel = [
   {
     id: 8,
     image: Artikel8,
-    title: "UI UX Design with Adobe XD for Beginner",
+    title: "Pemanfaatan Limbah Plastik Menjadi Paving",
     date: "Rabu, 31 Mei 2023",
     readmore: "Baca Detail",
     delay: "300",
@@ -108,7 +108,7 @@ export const artikelTerbaru = [
   {
     id: 1,
     image: Artikel1,
-    title: "Character Illustration with Adobe Illustrator",
+    title: "Giat Mengurangi Penggunaan Sampah Sehari-hari",
     date: "Kamis, 1 Juni 2023",
     readmore: "Baca Detail",
     delay: "",
@@ -116,7 +116,7 @@ export const artikelTerbaru = [
   {
     id: 2,
     image: Artikel2,
-    title: "UI UX Website Design for Beginner with Figma",
+    title: "Giat Melakukan Reboisasi Pada Lingkungan Sekitar",
     date: "Minggu, 11 Juni 2023",
     readmore: "Baca Detail",
     delay: "200",
@@ -124,7 +124,7 @@ export const artikelTerbaru = [
   {
     id: 3,
     image: Artikel3,
-    title: "Mastering Web Developer Bootstrap 5",
+    title: "Kreatif!! Olah Sampah Plastik Jadi Bata",
     date: "Rabu, 21 juni 2023",
     readmore: "Baca Detail",
     delay: "400",
@@ -132,7 +132,7 @@ export const artikelTerbaru = [
   {
     id: 4,
     image: Artikel4,
-    title: "Mastering Logo with Adobe Illustrator",
+    title: "Ketahui Sampah Sesuai Jenis-Jenisnya",
     date: "Rabu, 28 Juni 2023",
     readmore: "Baca Detail",
     delay: "",
@@ -140,7 +140,7 @@ export const artikelTerbaru = [
   {
     id: 5,
     image: Artikel5,
-    title: "3D Modelling for Beginner with 3D Blender",
+    title: "Menyulap Limbah Plastik Menjadi BBM",
     date: "Senin, 1 Mei 2023",
     readmore: "Baca Detail",
     delay: "200",
@@ -148,7 +148,7 @@ export const artikelTerbaru = [
   {
     id: 6,
     image: Artikel6,
-    title: "Mastering Icon Design with Adobe Illustrator",
+    title: "Pemanfaatan Limbah Plastik Menjadi Paving",
     date: "Kamis, 11 Mei 2023",
     readmore: "Baca Detail",
     delay: "400",

@@ -12,7 +12,7 @@ const HomePage = () => {
   <div className="homepage">
     <header className="w-100 min-vh-100 d-flex align-items-center">
       <Container>
-        <Row className="header-box d-flex align-items-center">
+        <Row className="header-box d-flex align-items-center pt-lg-8">
           <Col lg="6">
             <h1 className="mb-4">Jaga Lingkungan <br/> Dimulai dari <span>Diri Sendiri</span></h1>
             <p className="mb-4">Adukan segala tindak pelanggaran lingkungan disekitar kamu !!!</p>
