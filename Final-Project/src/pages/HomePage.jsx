@@ -36,7 +36,7 @@ const HomePage = () => {
         <Row>
           {artikelTerbaru.map((artikel) => {
             return (
-            <Col key={artikel.id}>
+            <Col key={artikel.id} className="shadow rounded">
               <img src={artikel.image} alt="" className="w-100 mb-3 rounded" />
               <h5 className="mb-2 px-3">{artikel.title}</h5>
               <p className="text-muted small mb-4 px-3">{artikel.date}</p>
