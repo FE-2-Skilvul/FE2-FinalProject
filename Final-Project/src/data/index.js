@@ -7,10 +7,6 @@ import Artikel6 from "../assets/img/artikel/edukasi6.jpg";
 import Artikel7 from "../assets/img/artikel/edukasi7.jpg";
 import Artikel8 from "../assets/img/artikel/edukasi8.jpg";
 
-import People1 from "../assets/img/testimonial/people-1.jpg";
-import People2 from "../assets/img/testimonial/people-2.jpg";
-import People3 from "../assets/img/testimonial/people-3.jpg";
-
 export const navLinks = [
   {
     id: 1,

@@ -1,10 +1,13 @@
 import {Container, Row, Col} from "react-bootstrap"
 import HeroImage from '../assets/img/hero2.png'
 import {artikelTerbaru} from "../data/index"
+import {useNavigate} from "react-router-dom"
 
 
 
 const HomePage = () => {
+  let navigate = useNavigate();
+
   return (
   <div className="homepage">
     <header className="w-100 min-vh-100 d-flex align-items-center">
@@ -39,12 +42,19 @@ const HomePage = () => {
               <p className="text-muted small mb-4 px-3">{artikel.date}</p>
               <div className=" px-3 pb-3">
                 <button className="btn rounded-10 me-2 mb-xs-0 mb-2"
-                style={{ backgroundColor: '#144458', color: '#ffff' }}>{artikel.readmore}</button>
+                style={{ backgroundColor: '#0e516d', color: '#ffff' }}>{artikel.readmore}</button>
               </div>
             </Col>
             );
           })}
+        </Row>
+        <Row>
+          <Col className="text-center">
+          <button className="btn btn-lg rounded-10 me-2 mb-xs-0 mb-2" onClick={() => navigate("/artikel")}
+            style={{ backgroundColor: '#0e516d', color: '#ffff' }}>Lihat Semua Artikel <i className="fa-solid fa-chevron-right ms-1"></i>
+          </button>
           
+          </Col>
         </Row>
       </Container>
     </div>
