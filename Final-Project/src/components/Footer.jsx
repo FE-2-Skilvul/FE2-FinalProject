@@ -5,10 +5,10 @@ const Footer = () => {
   return (
   <div className="footer py-5">
     <Container>
-      <Row>
+      <Row className="d-flex justify-content-between">
         <Col>
           <h3 className="fw-bold">Elvira</h3>
-          <p className="desc mt-2">ElVira adalah singkatan dari Elektronik Environment New Era, 
+          <p className="desc mt-4">ElVira adalah singkatan dari Elektronik Environment New Era, 
             sebuah platfrom pengaduan tindak pelanggaran lingkungan yang terjadi 
             disekitar kamu, platform ini memudahkan dinas lingkungan hidup 
             dalam menangani permasalahan yang terjadi di wilayah kamu</p>
@@ -25,7 +25,7 @@ const Footer = () => {
               </Link>
             </div>
         </Col>
-        <Col className="d-flex flex-column col-lg-2 col">
+        <Col className="d-flex flex-column col-lg-2 col mt-lg-0 mt-5">
           <h5 className="fw-bold">Menu</h5>
           <Link to="">Home</Link>
           <Link to="artikel">Artikel</Link>
@@ -33,7 +33,7 @@ const Footer = () => {
           <Link to="faq">Faq</Link>
           <Link to="about">About</Link>
         </Col>
-        <Col>
+        <Col className="mt-lg-0 mt-5">
           <h5 className="fw-bold mb-4">Cari artikel menarik lainnya</h5>
           <div className="cari">
             <input type="text" placeholder="Cari..." />
@@ -45,6 +45,11 @@ const Footer = () => {
             <i className="fa-brands fa-twitter"></i>
             <i className="fa-brands fa-youtube"></i>
           </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p className="text-center px-md-0 px-3">&copy; Copyright {new Date().getFullYear()} by <span className="fw-bold">Elvira </span>All Right Reserved</p>
         </Col>
       </Row>
     </Container>
