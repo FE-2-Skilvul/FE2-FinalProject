@@ -19,11 +19,13 @@
     width: 100%;
     transition:  all 0.2s ease;
     z-index: 9999;
+    
 }
 
 .navbar.color-active {
     background-color: var(--navbar-color);
     padding: 20px 0 20px 0;
+    border-bottom: 2px var(--navbar-color);
     
 }
 
@@ -138,7 +140,7 @@ header {
 
 .homepage .artikel .row:nth-child(1) h1,
 .homepage .artikel .row:nth-child(1) p{
-    color: var(--color-text);
+    color: var(--navbar-color);
 }
 
 .homepage .artikel .row:nth-child(2){
@@ -171,6 +173,52 @@ header {
 /* HOMEPAGE ARTIKEL */
 
 
+/* ARTIKEL */
+
+.artikel-page .artikel {
+    /* background-color: #eaeaea; */
+    padding-bottom: 100px;
+}
+
+.artikel-page .artikel .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.artikel-page .artikel .row:nth-child(1) h1{
+    color: var(--navbar-color);
+}
+
+.artikel-page .artikel .row:nth-child(1) p{
+    color: var(--primary-color);
+}
+
+.artikel-page .artikel .row:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding-inline: 10px;
+}
+
+.artikel-page .artikel .row:nth-child(2) .col {
+    background-color: #f9f9f9;
+    padding: 0;
+}
+
+.artikel-page .artikel .row:nth-child(2) img{
+    width: 100%;
+    height: 250px;
+}
+
+.artikel-page .artikel .row:nth-child(2) h5 {
+    color: var(--color-text);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* ARTIKEL */
+
+
 /* FAQ */
 
 .faq  {
@@ -181,6 +229,11 @@ header {
 
 .faq h2 {
     color: var(--color-text);
+}
+
+.faq .row:nth-child(1) h2 {
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .faq .accordion .accordion-button {
