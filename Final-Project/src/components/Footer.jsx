@@ -1,6 +1,55 @@
+import {Container, Row, Col} from "react-bootstrap"
+import {Link} from "react-router-dom"
+
 const Footer = () => {
-  return <div>Footer</div>;
-  
+  return (
+  <div className="footer py-5">
+    <Container>
+      <Row>
+        <Col>
+          <h3 className="fw-bold">Elvira</h3>
+          <p className="desc mt-2">ElVira adalah singkatan dari Elektronik Environment New Era, 
+            sebuah platfrom pengaduan tindak pelanggaran lingkungan yang terjadi 
+            disekitar kamu, platform ini memudahkan dinas lingkungan hidup 
+            dalam menangani permasalahan yang terjadi di wilayah kamu</p>
+            <div className="no mb-1 mt-4">
+              <Link className="text-decoration-none">
+                <i className="fa-brands fa-whatsapp"></i>
+                <p className="m-0">+628-6757-6432-10</p>
+              </Link>
+            </div>
+            <div className="email">
+              <Link className="text-decoration-none">
+                <i className="fa-regular fa-envelope"></i>
+                <p className="m-0">Elvira01@gmail.com</p>
+              </Link>
+            </div>
+        </Col>
+        <Col className="d-flex flex-column col-lg-2 col">
+          <h5 className="fw-bold">Menu</h5>
+          <Link to="">Home</Link>
+          <Link to="artikel">Artikel</Link>
+          <Link to="pengaduan">Pengaduan</Link>
+          <Link to="faq">Faq</Link>
+          <Link to="about">About</Link>
+        </Col>
+        <Col>
+          <h5 className="fw-bold mb-4">Cari artikel menarik lainnya</h5>
+          <div className="cari">
+            <input type="text" placeholder="Cari..." />
+            <button className="btn btn-success rounded-end rounded-0">Cari</button>
+          </div>
+          <div className="social mt-3">
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-youtube"></i>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  </div>
+  ); 
 };
 
 export default Footer;
