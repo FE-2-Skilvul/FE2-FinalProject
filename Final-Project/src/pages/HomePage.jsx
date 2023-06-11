@@ -2,6 +2,7 @@ import {Container, Row, Col} from "react-bootstrap"
 import HeroImage from '../assets/img/hero2.png'
 import {artikelTerbaru} from "../data/index"
 import {useNavigate} from "react-router-dom"
+import Faq from "../components/Faq"
 
 
 
@@ -58,6 +59,9 @@ const HomePage = () => {
         </Row>
       </Container>
     </div>
+
+
+    <Faq />
   </div>
   );
 };
