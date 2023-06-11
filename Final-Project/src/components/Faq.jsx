@@ -16,10 +16,10 @@ const Faq = () => {
             return (
               <Col key={data.id}>
                 <Accordion className="shadow">
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                <Accordion.Item eventKey={data.eventKey}>
+                  <Accordion.Header>{data.title}</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    {data.desc}
                   </Accordion.Body>
                 </Accordion.Item>
                 </Accordion>
