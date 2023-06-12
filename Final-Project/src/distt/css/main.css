@@ -17,12 +17,7 @@
     position: fixed;
     padding: 15px 0 15px 0;
     width: 100%;
-    transition:  all 0.2s ease;
     z-index: 9999;
-    
-}
-
-.navbar.color-active {
     background-color: var(--navbar-color);
     padding: 20px 0 20px 0;
     border-bottom: 2px var(--navbar-color);
@@ -250,6 +245,7 @@ header {
 .faq .row:nth-child(1) h2 {
     padding-top: 100px;
     padding-bottom: 25px;
+    color: var(--navbar-color);
 }
 
 .faq .accordion .accordion-button {
@@ -280,6 +276,26 @@ header {
 .about-page p {
     line-height: 2;
 }
+
+.about-page .row:nth-child(1) h1{
+    color: var(--navbar-color);
+}
+
+.about-page .row:nth-child(3) h4 {
+    color: var(--navbar-color);
+    padding-bottom: 20px;
+}
+
+.about-page .row:nth-child(4) h4 {
+    color: var(--navbar-color);
+    padding-bottom: 20px;
+}
+
+.about-page .row:nth-child(5) h4 {
+    color: var(--navbar-color);
+    padding-bottom: 20px;
+}
+
 
 
 
