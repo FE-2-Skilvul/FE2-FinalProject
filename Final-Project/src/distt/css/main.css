@@ -277,6 +277,11 @@ header {
     padding-top: 200px;
 }
 
+.about-page p {
+    line-height: 2;
+}
+
+
 
 /* -------------------ABOUT--------------------- */
 
