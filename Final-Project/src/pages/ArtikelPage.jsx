@@ -8,11 +8,12 @@ const ArtikelPage = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className="fw-bold text-center">Semua Artikel</h1>
-              <p className="text-center">Kumpulan Artikel Lingkungan Yang Bisa Anda Baca</p>
+              <h1 className="fw-bold text-center animate__animated animate__fadeInUp">Semua Artikel</h1>
+              <p className="text-center animate__animated animate__fadeInUp">Kumpulan Artikel Lingkungan Yang Bisa Anda Baca</p>
             </Col>
           </Row>
           <Row>
+{/* MISAL MAU HAPUS KONTEN GANTI BARU AWALANE DARI SINI AJA */}
           {semuaArtikel.map((artikel) => {
             return (
               <Col key={artikel.id} className="shadow rounded">
@@ -26,6 +27,7 @@ const ArtikelPage = () => {
               </Col>
               );
             })}
+{/* AKHIR HAPUS KONTEN SAMPE SINI  */}
           </Row>
         </Container>
 

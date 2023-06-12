@@ -9,8 +9,8 @@ const AboutPage = () => {
       <Container>
         <Row>
           <Col>
-          <h1 className="fw-bold text-center mb-2 ">About</h1>
-          <p className="text-center"> Tentang kami</p>
+          <h1 className="fw-bold text-center mb-2 animate__animated animate__fadeInUp">About</h1>
+          <p className="text-center animate__animated animate__fadeInUp"> Tentang kami</p>
           </Col>
         </Row>
         <Row className="pt-5">

@@ -21,6 +21,9 @@
     background-color: var(--navbar-color);
     padding: 20px 0 20px 0;
     border-bottom: 2px var(--navbar-color);
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    
     
 }
 
@@ -60,6 +63,7 @@ header {
     font-size: 3.2rem;
     font-weight: 500;
     color: var(--secondary-color);
+    --animate-delay: 0.5s;
 }
 
 .homepage .header-box h1 span{
@@ -71,6 +75,11 @@ header {
     line-height: 2;
     color:var(--secondary-color);
     font-weight: 400;
+    --animate-delay: 1s;
+}
+
+.homepage .header-box button {
+    --animate-delay: 1s;
 }
 
 .homepage .header-box img{
