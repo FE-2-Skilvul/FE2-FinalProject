@@ -23,7 +23,7 @@ function RegisterForm() {
           </div>
 
           <Form>
-            <Form.Group className="mb-5" controlId="formBasicUsername">
+            <Form.Group className="mb-4" controlId="formBasicUsername">
               <Form.Label className="form-label">Username</Form.Label>
               <Form.Control
                 className="form-control"
@@ -32,7 +32,7 @@ function RegisterForm() {
               />
             </Form.Group>
 
-            <Form.Group className="mb-4" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label className="form-label">Email</Form.Label>
               <Form.Control
                 className="form-control"
@@ -41,7 +41,7 @@ function RegisterForm() {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-2" controlId="formBasicPassword">
               <Form.Label className="form-label">Password*</Form.Label>
               <Form.Control className="form-control" type="password" placeholder="Min 8 Character" />
             </Form.Group>

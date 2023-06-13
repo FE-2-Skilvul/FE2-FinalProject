@@ -20,13 +20,14 @@
     border: none;
   }
   
+  input[type="username"],
   input[type="email"],
   input[type="password"] {
     border-radius: 32px;
     border: 2px solid rgb(224, 224, 224);
   }
   
-  .btn-login {
+  .btn-register {
     height: 35px;
     border-radius: 32px;
     font-weight: 700;
