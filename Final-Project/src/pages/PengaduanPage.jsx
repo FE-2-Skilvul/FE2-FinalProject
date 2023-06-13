@@ -55,7 +55,7 @@ const PengaduanPage = () => {
 
   const handleInputChange = (event) => {
     const { value } = event.target;
-    setIsFormEmpty(value.trim() === "");
+    setIsFormEmpty(value.trim() === "" || !value);
   };
 
   return (
@@ -114,6 +114,9 @@ const PengaduanPage = () => {
                   >
                     Laporkan
                   </Button>
+                  {isFormEmpty && (
+                    <p className="text-danger">*Field tidak boleh kosong</p>
+                  )}
                 </Form>
               </div>
               {showSuccessMessage && (

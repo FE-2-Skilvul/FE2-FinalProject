@@ -14,6 +14,11 @@
     z-index: 999;
   }  
 
+  .text-danger {
+    color: black;
+    text-decoration: black;
+  }  
+
   .alert {
     background-color: #0d485a;
     color: white;
