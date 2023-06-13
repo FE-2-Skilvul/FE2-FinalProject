@@ -91,7 +91,7 @@ const PengaduanPage = () => {
                     <Form.Control type="number" onChange={handleInputChange} />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="lokasi">
-                    <Form.Label>Lokasi : </Form.Label>
+                    <Form.Label>Lokasi Terjadinya Pelanggaran: </Form.Label>
                     <Form.Control type="text" onChange={handleInputChange} />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="keluhan">
