@@ -59,22 +59,22 @@
   }
 
   .submit-button {
-    color: white;
+    color: #12475d;
   }  
   
   .submit-button {
     margin-top: 20px;
     width: 100%;
-    background-color: #113748;
+    background-color: #12475d;
     border-radius: 5px;
   }
   
   .submit-button:hover {
-    background-color: #dde4eb;
+    background-color: #113748;
   }
   
   .submit-button:active {
-    background-color: #b6babe;
+    background-color: #113748;
   }  
   
   @media (max-width: 576px) {
