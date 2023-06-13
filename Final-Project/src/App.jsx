@@ -8,6 +8,7 @@ import ArtikelPage from "./pages/ArtikelPage";
 import PengaduanPage from "./pages/PengaduanPage";
 import FaqPage from "./pages/FaqPage";
 import AboutPage from "./pages/AboutPage";
+import DetailArtikel from "./pages/DetailArtikel";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" Component={HomePage}/>
         <Route path="/Artikel" Component={ArtikelPage}/>
+        <Route path="/artikel/:articleId" Component={DetailArtikel}/>
         <Route path="/Pengaduan" Component={PengaduanPage}/>
         <Route path="/Faq" Component={FaqPage}/>
         <Route path="/About" Component={AboutPage}/>
