@@ -60,13 +60,10 @@
   }
 
   .submit-button {
-    color: #12475d;
-  }  
-  
-  .submit-button {
+    color: #fff;
     margin-top: 20px;
     width: 100%;
-    background-color: #12475d;
+    background-color: #113748;
     border-radius: 5px;
   }
   
