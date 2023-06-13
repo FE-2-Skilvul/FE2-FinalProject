@@ -17,8 +17,8 @@ const HomePage = () => {
           <Col lg="6">
             <h1 className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">Jaga Lingkungan <br/> Dimulai dari <span>Diri Sendiri</span></h1>
             <p className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">Adukan segala tindak pelanggaran lingkungan disekitar kamu !!!</p>
-            <button className="btn btn-lg rounded-10 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s"
-            style={{ backgroundColor: '#144458', color: '#ffff' }} >Selengkapnya</button>
+            <button className="btn btn-lg rounded-10 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s" onClick={() => navigate("/pengaduan")}
+            style={{ backgroundColor: '#144458', color: '#ffff' }} >Laporkan</button>
           </Col>
           <Col lg="6" className="pt-lg-0 pt-5">
             <img src={HeroImage} alt="hero2-img" />
