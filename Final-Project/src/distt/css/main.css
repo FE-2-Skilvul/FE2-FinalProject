@@ -185,40 +185,96 @@ header {
 }
 
 .artikel-page .artikel .row:nth-child(1) {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .artikel-page .artikel .row:nth-child(1) h1{
     color: var(--navbar-color);
 }
 
-.artikel-page .artikel .row:nth-child(1) p{
-    color: var(--primary-color);
-}
+/* --------------------ARTIKEL -----------------------*/
+.artikel .box-artikel .box h3 {
+    font-size: 1.5rem; 
+  }
+  
 
-.artikel-page .artikel .row:nth-child(2){
+.artikel button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .artikel {
+    padding: 50px 0 50px 0;
+  }
+  
+  .artikel .box-artikel {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
-    padding-inline: 10px;
-}
-
-.artikel-page .artikel .row:nth-child(2) .col {
-    background-color: #f9f9f9;
-    padding: 0;
-}
-
-.artikel-page .artikel .row:nth-child(2) img{
+    gap: 20px;
+    row-gap: 50px;
+  }
+  
+  .artikel .box-artikel .box {
+    text-align: center;
+    color: rgb(18, 18, 18);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+  
+  .artikel .box-artikel .box:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+  
+  .artikel .box-artikel .box img {
     width: 100%;
-    height: 250px;
-}
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .artikel .box-artikel .box p {
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  
+  .artikel .box-artikel .box button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #154053;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .artikel .box-artikel .box button:hover {
+    background-color: #154053;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
 
-.artikel-page .artikel .row:nth-child(2) h5 {
-    color: var(--color-text);
-    font-weight: 500;
-    line-height: 1.5;
-}
+/* ----------------ARTIKEL--------------------- */
 
 /* ----------------ARTIKEL--------------------- */
 

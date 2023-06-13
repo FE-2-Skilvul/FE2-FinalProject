@@ -1,0 +1,84 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.success-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #0d485a;
+    color: #fff;
+    border-radius: 5px;
+    z-index: 999;
+  }  
+
+  .alert {
+    background-color: #0d485a;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }  
+
+.pengaduan-box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .submit-button {
+    color: white;
+  }  
+  
+  .submit-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #113748;
+    border-radius: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #dde4eb;
+  }
+  
+  .submit-button:active {
+    background-color: #b6babe;
+  }  
+  
+  @media (max-width: 576px) {
+    .form-container {
+      width: 100%;
+    }
+  }
