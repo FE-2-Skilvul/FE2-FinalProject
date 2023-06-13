@@ -3,7 +3,7 @@
 }
 
 .success-message {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -41,6 +41,7 @@
   .form-container h2 {
     margin-bottom: 20px;
     text-align: center;
+    color: #113748;
   }
   
   .form-group {
@@ -78,7 +79,17 @@
   }  
   
   @media (max-width: 576px) {
-    .form-container {
-      width: 100%;
+    .success-message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      background-color: #0d485a;
+      color: #fff;
+      border-radius: 5px;
+      z-index: 999;
+      width: 90%;
+      max-width: 400px;
     }
   }
