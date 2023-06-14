@@ -29,9 +29,9 @@ console.log(article)
   return (
     <div>
       {/* Render the article details */}
-      <h3>{article.judul}</h3>
+      <h1 class="jartikel" id="">{article.judul}</h1>
       <img src={article.gambar} alt="Deskripsi Gambar" className="gambarartikel" />
-      <p>{article.detail}</p>
+      <p class="dartikel" id="">{article.detail}</p>
       {/* Add more details as needed */}
     </div>
   );
