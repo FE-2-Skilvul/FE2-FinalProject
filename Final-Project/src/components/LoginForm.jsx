@@ -1,13 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import "./LoginForm.css";
 import GoogleLogo from "../assets/google.png";
+import { useDispatch } from "react-redux";
 
-function LoginForm() {
+const LoginForm = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const dispatch = useDispatch();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    dispatch(
+      login({
+        email: email,
+        password: password,
+        loggedIn: true,
+      })
+    );
+  };
+
   return (
-    <div className="container ">
+    <div className="container">
       <Card className="login-form">
         <Card.Body>
           <h2 className="card-title">Login</h2>
@@ -22,19 +40,27 @@ function LoginForm() {
             </Button>
           </div>
 
-          <Form>
+          <Form onSubmit={(e) => handleSubmit(e)}>
             <Form.Group className="mb-4" controlId="formBasicEmail">
               <Form.Label className="form-label">Email*</Form.Label>
               <Form.Control
                 className="form-control"
                 type="email"
                 placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label className="form-label">Password*</Form.Label>
-              <Form.Control className="form-control" type="password" placeholder="Min 8 Character" />
+              <Form.Control
+                className="form-control"
+                type="password"
+                placeholder="Min 8 Character"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
             </Form.Group>
 
             <Form.Group
@@ -66,6 +92,6 @@ function LoginForm() {
       </Card>
     </div>
   );
-}
+};
 
 export default LoginForm;

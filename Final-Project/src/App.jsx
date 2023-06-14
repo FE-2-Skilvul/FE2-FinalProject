@@ -1,12 +1,11 @@
-import LoginForm from "./components/loginForm"
+import LoginForm from "./components/loginForm";
 
 function App() {
-
   return (
     <>
-      <LoginForm/>
+      <LoginForm />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
