@@ -254,7 +254,7 @@ header {
     width: 120px;
     height: 40px;
     border: none;
-    background-color: #154053;
+    background-color: var(--navbar-color);
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -266,7 +266,7 @@ header {
   }
   
   .artikel .box-artikel .box button:hover {
-    background-color: #154053;
+    background-color: var(--navbar-color);
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;

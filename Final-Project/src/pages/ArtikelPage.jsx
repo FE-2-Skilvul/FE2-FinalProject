@@ -6,7 +6,6 @@ import Artikel4 from "../assets/img/artikel/edukasi4.jpg";
 import Artikel5 from "../assets/img/artikel/edukasi5.jpg";
 import Artikel6 from "../assets/img/artikel/edukasi6.jpg";
 import Artikel7 from "../assets/img/artikel/edukasi7.jpg";
-import Artikel8 from "../assets/img/artikel/edukasi8.jpg";
 import Artikel9 from "../assets/img/artikel/edukasi9(1).jpeg";
 import Artikel10 from "../assets/img/artikel/edukasi8(1).jpeg";
 
