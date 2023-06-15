@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import "./RegisterForm.css";
 import GoogleLogo from "../assets/google.png";
+import { useDispatch } from "react-redux";
+import { register } from "./action";
 
 function RegisterForm() {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const dispatch=useDispatch()
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    dispatch(
+      register({
+        username: username,
+        email: email,
+        password: password,
+        loggedIn: true,
+      })
+    );
+  };
+
   return (
     <div className="container ">
       <Card className="register-form">
@@ -22,13 +43,15 @@ function RegisterForm() {
             </Button>
           </div>
 
-          <Form>
+          <Form onSubmit={(e)=>handleSubmit(e)}>
             <Form.Group className="mb-4" controlId="formBasicUsername">
               <Form.Label className="form-label">Username</Form.Label>
               <Form.Control
                 className="form-control"
                 type="username"
                 placeholder="Username"
+                username={username}
+                onChange={(e) => setUsername(e.target.value)}
               />
             </Form.Group>
 
@@ -38,12 +61,16 @@ function RegisterForm() {
                 className="form-control"
                 type="email"
                 placeholder="Email"
+                email={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </Form.Group>
 
             <Form.Group className="mb-2" controlId="formBasicPassword">
               <Form.Label className="form-label">Password*</Form.Label>
-              <Form.Control className="form-control" type="password" placeholder="Min 8 Character" />
+              <Form.Control className="form-control" type="password" placeholder="Min 8 Character"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)} />
             </Form.Group>
 
             <Form.Group
