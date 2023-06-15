@@ -35,8 +35,8 @@ console.log(article)
             {/* Render the article details */}
             <h1 className="pt-5 text-center fw-bold" id="" style={{ color: '#12475d' }}>{article.judul}</h1>
             <img className=" py-5 mx-auto d-block " src={article.gambar} alt="Deskripsi Gambar" />
-            <p id="">{article.detail}</p>
-            {/* Add more details as needed */}
+            <p class="dartikel" id="">{article.detail}</p>
+      {/* Add more details as needed */}
           </Col>
         </Row>
       </Container>

@@ -1,3 +1,4 @@
+
   h1.jartikel {
     text-align: center;
     position: relative;
@@ -8,7 +9,7 @@
     z-index: 1;
   }
   
-   p {
+  p.dartikel {
     text-align: justify;
     font-size: 18px;
     line-height: 1.5;
