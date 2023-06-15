@@ -1,12 +1,3 @@
- .gambarartikel {
-    max-width: 500px;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 500px;
-    margin-right: 500px;
-  }
-  
   h1.jartikel {
     text-align: center;
     position: relative;
@@ -17,13 +8,13 @@
     z-index: 1;
   }
   
-  p.dartikel {
+   p {
     text-align: justify;
     font-size: 18px;
     line-height: 1.5;
     color: #333;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   

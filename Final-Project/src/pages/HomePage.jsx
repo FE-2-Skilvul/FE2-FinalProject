@@ -30,7 +30,7 @@ const HomePage = () => {
       <Container>
         <Row>
           <Col>
-            <h1 className="text-center fw-bold ">Artikel Terbaru</h1>
+            <h1 className="text-center fw-bold ">Artikel Terbaru</h1>c
             <p className="text-center" style={{color: '#231942'}}>Kumpulan Artikel Lingkungan Yang Bisa Anda Baca</p>
           </Col>
         </Row>
