@@ -5,8 +5,9 @@ import Form from "react-bootstrap/Form";
 import "./LoginForm.css";
 import GoogleLogo from "../assets/google.png";
 import { useDispatch } from "react-redux";
+import { login } from "./action";
 
-const LoginForm = () => {
+function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -92,6 +93,6 @@ const LoginForm = () => {
       </Card>
     </div>
   );
-};
+}
 
 export default LoginForm;
