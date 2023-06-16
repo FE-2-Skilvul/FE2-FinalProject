@@ -2,9 +2,11 @@ import {useState,useEffect} from "react"
 import {Navbar, Container, Nav} from 'react-bootstrap'
 
 import {navLinks} from '../data/index'
-import {NavLink} from "react-router-dom"
+import {NavLink, useNavigate} from "react-router-dom"
+
 
 const Navbars = () => {
+  let navigate = useNavigate();
 
   return (
    <div>
@@ -27,7 +29,7 @@ const Navbars = () => {
             </Nav>
 
             <div className='text-center'>
-              <button className='btn rounded-10' style={{ backgroundColor: '#ededed', color: '#144458' }}>Login</button>
+              <button className='btn rounded-10' style={{ backgroundColor: '#ededed', color: '#144458' }} onClick={() => navigate("/Login")}>Login</button>
             </div>
             {/* className="btn btn-lg rounded-1 me-2"
             style={{ backgroundColor: '#144458', color: '#ffff' }} */}

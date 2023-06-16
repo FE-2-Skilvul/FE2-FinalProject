@@ -9,6 +9,8 @@ import PengaduanPage from "./pages/PengaduanPage";
 import FaqPage from "./pages/FaqPage";
 import AboutPage from "./pages/AboutPage";
 import DetailArtikel from "./pages/DetailArtikel";
+import LoginForm from "./pages/LoginForm";
+import RegisterForm from "./pages/RegisterForm";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
 
       <Routes>
         <Route path="/" Component={HomePage}/>
+        <Route path="/Login" Component={LoginForm}/>
+        <Route path="/Register" Component={RegisterForm}/>
         <Route path="/Artikel" Component={ArtikelPage}/>
         <Route path="/artikel/:articleId" Component={DetailArtikel}/>
         <Route path="/Pengaduan" Component={PengaduanPage}/>

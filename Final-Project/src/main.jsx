@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './distt/css/main.css'
 import 'animate.css';
 
+import { Provider } from "react-redux";
+import store from "./app/store.js";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -17,8 +20,10 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <ScroollToTop />
+    <Provider store={store}>
+      <ScroollToTop />
       <App />
+    </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );
