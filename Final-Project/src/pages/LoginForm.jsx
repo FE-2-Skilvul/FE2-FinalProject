@@ -31,17 +31,13 @@ function LoginForm() {
     <div className="container">
       <Card className="login-form py-5">
         <Card.Body>
-          <h2 className="card-title">Login</h2>
-          <h6 className="card-subtitle text-muted mb-5 fw-bold">
-            Please login to use this site!
+          <br />
+          <br />
+          <br />
+          <h2 className="card-title text-center fw-bold">Login</h2>
+          <h6 className="card-subtitle text-muted mb-5 fw-bold text-center">
+          Please login to use this site!
           </h6>
-
-          <div className="d-grid mt-5 mb-5">
-            <Button className="btn-gmail" variant="light" type="submit">
-            <img src={GoogleLogo} className="img-google py-3 mx-auto d-block" alt="gmail" style={{ width: '50px', height: 'auto' }}/>
-              Login with Gmail
-            </Button>
-          </div>
 
           <Form onSubmit={(e) => handleSubmit(e)}>
             <Form.Group className="mb-4" controlId="formBasicEmail">
